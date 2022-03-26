@@ -1,0 +1,17 @@
+package com.assignments;
+import java.util.*;
+public class LeapYear {
+
+	public static void main(String[] args) {
+		
+		 int y;
+	      System.out.println("Enter an Year :: ");
+	      Scanner obj = new Scanner(System.in);
+	      y = obj.nextInt();
+
+	      if ( y%100==0 && y%400 == 0 || y%4 == 0 && y % 100!= 0 )
+	         System.out.println("Leap year");
+	      else
+	         System.out.println("Not a Leap year");
+	   }
+	}
