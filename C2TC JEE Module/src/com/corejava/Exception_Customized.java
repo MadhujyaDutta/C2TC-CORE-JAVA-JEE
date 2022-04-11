@@ -34,5 +34,5 @@ class CantVote extends Exception //to make it an exception class we should exten
 	CantVote(String msg)
 	{
 		super(msg); //it is used to print a long exception message.
-	}
+	}//printStacktrace()
 }
